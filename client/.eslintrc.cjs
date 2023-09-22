@@ -17,4 +17,7 @@ module.exports = {
       { allowConstantExport: true },
     ],
   },
+  "rules": {
+    "react/jsx-key": off
+  }
 }
