@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const tasksApi = axios.create({
-    baseURL: "http://localhost:8000/tasks/api/v1/tasks/",
+    baseURL: "https://react-django-api.vercel.app/tasks/api/v1/tasks/",
 });
 
 export const getAllTasks = () => tasksApi.get("/");
